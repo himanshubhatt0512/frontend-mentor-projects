@@ -1,0 +1,68 @@
+@import url(./assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+
+@font-face {
+    font-family: nameFont;
+    src: url(./assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+
+body{
+    background-color: hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 100%);  
+    font-size: 14px;
+    font-family: nameFont, sans-serif;  
+    font-weight: 400, 600, 700;
+}
+
+.main-div{
+    background-color: hsl(0, 0%, 12%);
+    width: 500px;
+    margin: 50px auto;
+    margin-top: 10%;
+    margin-left: 10;
+    text-align: center; 
+    border-radius: 15px;
+}
+
+img{
+    margin-top: 5%;
+    margin: 0, auto;
+    border-radius: 50%;
+}
+ 
+.address{
+    color: hsl(75, 94%, 57%);   
+}
+p{
+    font-weight: 400;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+button{
+    width: 70%;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(0, 0%, 20%);
+    height: 60px;
+    font-weight: 600;
+    border-radius: 10px;   
+    margin-bottom: 20px; 
+    border: none;  
+}
+button:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+}
+
+
+@media (max-width: 375px) {
+    .main-div {
+        width: 90%;
+    }
+
+    button {
+        width: 80%; /* Adjust button width for mobile view */
+        height: 50px; /* Adjust button height for mobile view */
+        font-size: 14px; /* Adjust font size for mobile view */
+    }
+}
